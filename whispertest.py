@@ -13,8 +13,8 @@ NUM_CONCURRENT_FILES = 10
 BATCH_SIZE = 16
 PRINT_TRANSCRIPT_SAMPLE = True
 
-BEAM_SIZE = 4 # 5 is good for quality. Reducing will make it faster, but will degrade quality
-MODEL_SIZE = "large-v3"
+BEAM_SIZE = 5 # 5 is good for quality. Reducing will make it faster, but will degrade quality
+MODEL_SIZE = "distil-large-v3"
 DEVICE = "cuda"
 COMPUTE_TYPE = "float16"
 
