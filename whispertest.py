@@ -9,7 +9,7 @@ import shutil
 # --- Configuration ---
 SOURCE_STEREO_FILE_PATH = 'files/10_min_clear.wav'
 
-NUM_CONCURRENT_FILES = 40
+NUM_CONCURRENT_FILES = 10
 BATCH_SIZE = 32
 PRINT_TRANSCRIPT_SAMPLE = True
 
