@@ -10,8 +10,8 @@ import shutil
 SOURCE_STEREO_FILE_PATH = 'files/10_min_clear.wav'
 
 NUM_CONCURRENT_FILES = 10
-BATCH_SIZE = 12
-PRINT_TRANSCRIPT_SAMPLE = False
+BATCH_SIZE = 8
+PRINT_TRANSCRIPT_SAMPLE = True
 
 BEAM_SIZE = 5 # 5 is good for quality. Reducing will make it faster, but will degrade quality
 MODEL_SIZE = "large-v3"
