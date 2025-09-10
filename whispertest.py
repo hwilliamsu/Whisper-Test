@@ -9,7 +9,7 @@ import shutil
 # --- Configuration ---
 SOURCE_STEREO_FILE_PATH = 'files/10_min_clear.wav'
 
-NUM_CONCURRENT_FILES = 10
+NUM_CONCURRENT_FILES = 5
 BATCH_SIZE = 16
 PRINT_TRANSCRIPT_SAMPLE = True
 
@@ -113,7 +113,7 @@ def process_single_stereo_file(model_or_pipeline, stereo_filepath, temp_dir_for_
         "language": "en",
         "beam_size": BEAM_SIZE,
         "vad_filter": True,
-        "vad_parameters": dict(min_silence_duration_ms=1500)
+        "vad_parameters": dict(min_silence_duration_ms=500)
     }
 
     # Add the batch_size argument only when using the batched pipeline
