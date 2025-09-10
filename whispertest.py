@@ -14,9 +14,9 @@ BATCH_SIZE = 16
 PRINT_TRANSCRIPT_SAMPLE = True
 
 BEAM_SIZE = 5 # 5 is good for quality. Reducing will make it faster, but will degrade quality
-MODEL_SIZE = "large-v3"
+MODEL_SIZE = "large-v2"
 DEVICE = "cuda"
-COMPUTE_TYPE = "int8_float16"
+COMPUTE_TYPE = "float16"
 
 CUSTOMER_CHANNEL_INDEX = 0
 AGENT_CHANNEL_INDEX = 1
